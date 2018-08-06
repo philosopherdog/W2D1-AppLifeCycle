@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SecondViewController.h
 //  W2D1-AppLifeCycle
 //
 //  Created by steve on 2018-08-06.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SecondViewController : UIViewController
+@property (nonatomic, strong) UIImage *image;
 
 @end
-
